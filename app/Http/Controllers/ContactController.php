@@ -27,7 +27,7 @@ class ContactController extends Controller
         try {
             $validated = $request->validate([
                 'name' => 'required',
-                'email' => 'required|unique:contact',
+                'email' => 'required|email|unique:contact',
                 'phone' => 'required',
                 'city' => 'required',
                 'message' => 'required',
@@ -60,7 +60,7 @@ class ContactController extends Controller
         try {
             $validated = $request->validate([
                 'name' => 'required',
-                'email' => 'required|unique:contact',
+                'email' => 'required|email|unique:contact',
                 'phone' => 'required',
                 'city' => 'required',
                 'message' => 'required',
