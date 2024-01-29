@@ -7,8 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-100 flex justify-center items-center h-screen">
-    <form action="/contacts" method="POST" class="bg-white p-8 rounded shadow-md w-72">
+<body class="bg-gray-100 flex flex-col justify-start items-center h-screen">
+    <h1 class="mt-8 mb-4 text-2xl font-bold">Pixerama Leads</h1>
+        <form action="/contacts" method="POST" class="bg-white p-8 rounded shadow-md w-72">
         @csrf
         <label for="name" class="block mb-2 text-sm font-medium text-gray-600">Nome:</label>
         <input type="text" id="name" name="name" required class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
