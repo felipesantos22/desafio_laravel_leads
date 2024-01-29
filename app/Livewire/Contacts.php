@@ -4,17 +4,18 @@ namespace App\Livewire;
 
 use App\Models\Contact;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class Contacts extends Component
 {
-    public $contacts;
+    use WithPagination;
+    use WithPagination;
 
-    public function mount()
-    {
-        $this->contacts = Contact::all();
-    }
     public function render()
     {
-        return view('contacts.contacts');
+        
+        $contacts = Contact::paginate(5);
+
+        return view('contacts.contacts', compact('contacts'));
     }
 }

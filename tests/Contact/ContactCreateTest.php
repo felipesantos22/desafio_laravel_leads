@@ -16,5 +16,7 @@ class ContactCreateTest extends TestCase
 
     public function test_create_contact(): void
     {
+        $response = $this->get('/contact');
+        $response->assertStatus(200);
     }
 }
