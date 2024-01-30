@@ -1,66 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Desafio FullStack Laravel com phpUnit - Pixerama
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## O que vou desenvolver?
 
-## About Laravel
+Irei desenvolver uma API e um banco de dados para um sistema hospitalar! Para isso irei usar C#, MySql, xUnit, Docker e AspNet
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Neste projeto irei:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Desenvolver endpoints que estarão conectados ao banco de dados seguindo os princípios do REST;
+- Trabalhar a relação de pacientes, médicos e consultas
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Missão essencial
 
-## Learning Laravel
+- Desenvolver API até 12/12 com as melhores praticas possível.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## O que preciso saber para fazer o projeto?
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+-  Entender o conceito de Migrations
+-  Entender o conceito de Camadas
+-  Entender relacionamentos 1:N entre pacientes e consultas
+-  Entender relacionamentos 1:N entre médicos e consultas
+-  Autenticação JWT
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Requisitos obrigatórios do projeto
 
-## Laravel Sponsors
+ 1. Criar migrations para pacientes, médicos, consultas, especialidades e médicos_especialidades
+ 2. Endpoints de CRUD (Create, Read, Update e Delete) de pacientes com os campos (Nome, idade e Cpf)
+ 3. Endpoints de CRUD (Create, Read, Update e Delete) de médicos com os campos (Nome e Crm)
+ 4. Endpoints de CRUD (Create, Read, Update e Delete) de Consultas com os campos (Data, Paciente_Id e Médico_Id)
+ 5. Endpoints de CRUD (Create, Read, Update e Delete) de Login com os campos (NomeUsuário e Senha)
+ 6. Controle de acesso aos endpoints utilizando JWT - Os endpoints para cadastrar médicos e pacientes necessitam de autenticação
+ 7. Validações da informações enviadas - Foram feitas diversas validações, como agendamento com diferença de 30 min de um para o outro
+ 8. Testes de unidade e TDD - Foram testados as validações de cpf, crm e login
+ 9. Consultas com dapper - Implementado consulta por nome na classe DoctorRepository usando dapper
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<img width="600" img src="https://github.com/felipesantos22/desafio_junior/assets/81933510/c13120ce-ea7f-45fb-8736-c764702d097e" >
+<img width="600" img src="https://github.com/felipesantos22/desafio_junior/assets/81933510/75d5c0da-0c2b-459a-9e04-10e64b4ec533" >
+<img width="600" img src="https://github.com/felipesantos22/desafio_junior/assets/81933510/b08ff7b1-7f9f-4f9c-8ee4-f58fc26c0392" >
+<img align="center" alt="felipe-CSS" height="30" width="40" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" >  
