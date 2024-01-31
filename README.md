@@ -1,8 +1,8 @@
 # Desafio FullStack Laravel com phpUnit - Pixerama
 
-## O que vou desenvolver?
+## O que será desenvolvido.
 
-Irei desenvolver uma API e um banco de dados para um sistema hospitalar! Para isso irei usar C#, MySql, xUnit, Docker e AspNet
+Irei desenvolver um sistema de CRM para uma empresa comercial, onde o sistema deve permitir o gerenciamento de leads.
 
 Neste projeto irei:
 
