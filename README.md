@@ -2,16 +2,11 @@
 
 ## O que será desenvolvido.
 
-Irei desenvolver um sistema de CRM para uma empresa comercial, onde o sistema deve permitir o gerenciamento de leads.
-
-Neste projeto irei:
-
-- Desenvolver endpoints que estarão conectados ao banco de dados seguindo os princípios do REST;
-- Trabalhar a relação de pacientes, médicos e consultas
+Sistema de CRM para uma empresa comercial, onde o sistema deve permitir o gerenciamento de leads.
 
 ## Missão essencial
 
-- Desenvolver API até 12/12 com as melhores praticas possível.
+- Desenvolver Front e Backend até 02/02 com as melhores praticas possível.
 
 ## O que preciso saber para fazer o projeto?
 
