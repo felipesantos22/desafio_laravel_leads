@@ -33,7 +33,4 @@ Neste projeto irei:
  8. Testes de unidade e TDD - Foram testados as validações de cpf, crm e login
  9. Consultas com dapper - Implementado consulta por nome na classe DoctorRepository usando dapper
 
-<img width="600" img src="https://github.com/felipesantos22/desafio_junior/assets/81933510/c13120ce-ea7f-45fb-8736-c764702d097e" >
-<img width="600" img src="https://github.com/felipesantos22/desafio_junior/assets/81933510/75d5c0da-0c2b-459a-9e04-10e64b4ec533" >
-<img width="600" img src="https://github.com/felipesantos22/desafio_junior/assets/81933510/b08ff7b1-7f9f-4f9c-8ee4-f58fc26c0392" >
-<img align="center" alt="felipe-CSS" height="30" width="40" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" >  
+<img align="center" alt="felipe-CSS" height="30" width="40" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" >  
